@@ -14,4 +14,4 @@ function onUserNameEvent(event) {
     return refs.userName.textContent = event.currentTarget.value;
 };
 
-refs.input.addEventListener('input', userInput);
+refs.input.addEventListener('input', onUserNameEvent);
